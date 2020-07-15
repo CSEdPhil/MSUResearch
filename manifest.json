@@ -1,0 +1,33 @@
+{
+  
+	"name": "MSU Research Extension",
+  
+	"version": "1.0",
+  
+	"description": "This extension will modify the URL to take you to the corresponding proxy page for the journal that you are visiting.",
+ 
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	
+	"browser_action": {
+		"default_icon": {                    // optional
+			"16": "images/icon16.png",           // optional
+            "24": "images/icon24.png",           // optional
+            "32": "images/icon32.png"            // optional
+        },
+        "default_title": "MSU Research"      // optional; shown in tooltip
+    },
+	
+	"permissions": ["activeTab", "tabs"],
+	
+	"icons": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png"
+    },
+	
+	"manifest_version": 2
+
+}
